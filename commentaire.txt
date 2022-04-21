@@ -1,0 +1,43 @@
+Bonjour j'espere que vous allez bien, on vas présenter notre projet de Handdrawing réalisée par moi et .. et ..
+Pour le plan on vas commencer par une introduction sur la notion de handdrawing, et après 
+Les chiffres écrits par les humains se composent de différentes formes, tailles, courbes et styles, pas exactement les mêmes pour deux personnes comme vous pouvez voyez sur la photo                   
+ Ainsi, la conversion de chiffres écrits dans un format numérique était un défi pour les ordinateurs dans le passé.
+C'est pourquoi nous avons besoin d'une technologie pour rendre ce processus facile pour les ordinateurs afin qu'ils puissent reconnaître les écritures humaines sur papier.
+Cette technologie pourrait être utilisé dans le système d'authentification des chèques bancaires par exemple.
+On a choisi de travailler avec la méthode agile et spécifiquement le scrum car elle répond  aux
+exigences des organisations en évolution rapide ce qui adéquation avec notre projet
+Dans les diapos qui suit on vas essayer d'expliquer chaque étape  de la méthode agile et son application sur notre projet de Handwritting
+La première étape c'est la vision du produit qui est un document de cadrage partagé entre notre équipe et  elle passe le test de l’ascenseur qui est la capacité d'expliquer notre produit pendant la montée d’un ascenseur, pour cela on a répondu au 5 questions suivante
+On passe à la présentation de notre équipe qui suit les règles de la méthode agile, on a choisi de garder les memes role durant toute la durée de la réalisation.
+
+on a le scrum master qui Veille à l’application de la méthode Scrum C’est un facilitateur, un
+
+« servant leader »
+
+après le product owner c'est la Passerelle entre l’équipe de développement et le client.
+
+finalement on à l'équipe de développement Transforme les besoins définis par le Product Owner en fonctionnalités utilisables.
+Le product backlog contient la liste des fonctionnalités attendues dont
+
+Le Product Owner en est le responsable, on a décidé d'utiliser trello, dans trello on a définis tous les  fonctionnalités attendues par ordre de priorité.
+comme vous voyez sur le diapo on a 3 priorités et à chaque tache on a affecté un role,par exemple on a création de projet collan par scrum et dev dans pro 1 et dans pro2 on a par exemple pré traitement des donées par le dev ect(donner un exemple)
+On passe maintenant à la plannification de sprint .           
+on a décidé de faire quatre sprint. un sprint chaque semaine, qui dure 1h30
+- Le premier était dédié à la réalisation des du planning du projet. On devait alors chercher tous les fonctionnalités qui doivent être réalisés et les découper en plusieurs taches pour produire un sprint backlog.  en fait l'équipe de développement a réalisé les premières taches qui concernent la visualisation des données sur excel.
+-Le deuxième sprint  était dédié à la réalisations des autres taches de développement du  projet qui concerne le pré-traitement des données ainsi que la création du modèle. En fait on a arrivé à faire marché notre modèle.*
+-on a suivi meme principe pour 3 et 4
+on passe au dialy scrum qui sert à faire une coordination entre les membres de l’équipe.
+Au cours de la réalisation de ce projet, on a fait plusieurs réunion de 15 minutes maximun  sur discord  pour faire un point sur la progression quotidienne de notre projet, et pour le partage du code entre le dev et le reste de l'équipe on  autilisé github .                                     Cette rencontre  nous a  permet de synchroniser nos activités et de faire un plan pour les prochaines 24 heures pour une meilleur organisation.                          Lors de cette réunion Chacun répond à 3 questions :
+
+◉ Qu’ai-je fait depuis la dernière réunion ?
+
+◉ Que vais-je faire jusqu’à la réunion suivante ?
+
+◉ Quels sont les points de blocages ou les obstacles que je rencontre ?
+Voici, comment ressemble notre interface garphique final
+
+
+
+
+
+
