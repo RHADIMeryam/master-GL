@@ -1,0 +1,11 @@
+com/example/fragments/MainActivity.java
+ com.example.fragments.MainActivity
+com/example/fragments/BuildConfig.java
+ com.example.fragments.BuildConfig
+com/example/fragments/Affichage.java
+ com.example.fragments.Affichage
+ com.example.fragments.Affichage$1
+ com.example.fragments.Affichage$1$1
+com/example/fragments/Inscription.java
+ com.example.fragments.Inscription
+ com.example.fragments.Inscription$1
