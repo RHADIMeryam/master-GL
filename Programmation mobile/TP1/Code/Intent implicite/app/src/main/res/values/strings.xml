@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Formulaire</string>
+    <string name="tNom">Nom</string>
+    <string name="tPrenom">Prenom</string>
+    <string name="tTel">Numero de telephone</string>
+    <string name="monBouton">Soumettre</string>
+    <string name="tDomaine"> Domaine de competence </string>
+    <string name="tAge"> Age</string>
+    <string name="phone">Enter numero de tel</string>
+    <string name="call">Appel</string>
+    <string name="appeler">appeler</string>
+    <string name="appel">Appel</string>
+    <string name="_06">06..</string>
+</resources>
