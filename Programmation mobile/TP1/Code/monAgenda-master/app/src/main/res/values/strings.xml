@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">monAgenda</string>
+    <string name="flechG"><![CDATA[<-]]></string>
+    <string name="flechD"><![CDATA[->]]></string>
+</resources>
