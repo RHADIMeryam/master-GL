@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Formulaire</string>
+    <string name="tNom">Nom</string>
+    <string name="tPrenom">Prenom</string>
+    <string name="tTel">Numero de telephone</string>
+    <string name="monBouton">Soumettre</string>
+    <string name="tDomaine"> Domaine de competence </string>
+    <string name="tAge"> Age</string>
+</resources>
