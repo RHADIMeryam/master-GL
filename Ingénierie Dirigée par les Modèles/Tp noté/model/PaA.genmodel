@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/TpNoteRhadiKhairoun/src" modelPluginID="TpNoteRhadiKhairoun"
+    modelName="PaA" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>PaA.ecore</foreignModel>
+  <genPackages prefix="Paa" disposableProviderFactory="true" ecorePackage="PaA.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="PaA.ecore#//FieldBasicType">
+      <genEnumLiterals ecoreEnumLiteral="PaA.ecore#//FieldBasicType/int"/>
+      <genEnumLiterals ecoreEnumLiteral="PaA.ecore#//FieldBasicType/float"/>
+      <genEnumLiterals ecoreEnumLiteral="PaA.ecore#//FieldBasicType/String"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="PaA.ecore#//BasicQueryType">
+      <genEnumLiterals ecoreEnumLiteral="PaA.ecore#//BasicQueryType/save"/>
+      <genEnumLiterals ecoreEnumLiteral="PaA.ecore#//BasicQueryType/delete"/>
+      <genEnumLiterals ecoreEnumLiteral="PaA.ecore#//BasicQueryType/findAll"/>
+      <genEnumLiterals ecoreEnumLiteral="PaA.ecore#//BasicQueryType/count"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="PaA.ecore#//FieldDependantQueryType">
+      <genEnumLiterals ecoreEnumLiteral="PaA.ecore#//FieldDependantQueryType/findBy"/>
+      <genEnumLiterals ecoreEnumLiteral="PaA.ecore#//FieldDependantQueryType/deleteBy"/>
+    </genEnums>
+    <genClasses ecoreClass="PaA.ecore#//Entity">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference PaA.ecore#//Entity/superEntity"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference PaA.ecore#//Entity/fields"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute PaA.ecore#//Entity/name"/>
+    </genClasses>
+    <genClasses ecoreClass="PaA.ecore#//PaAModel">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference PaA.ecore#//PaAModel/entities"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference PaA.ecore#//PaAModel/repositories"/>
+    </genClasses>
+    <genClasses ecoreClass="PaA.ecore#//Repository">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference PaA.ecore#//Repository/typeEntity"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference PaA.ecore#//Repository/queries"/>
+    </genClasses>
+    <genClasses ecoreClass="PaA.ecore#//Field">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute PaA.ecore#//Field/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute PaA.ecore#//Field/type"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference PaA.ecore#//Field/entity"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="PaA.ecore#//Query"/>
+    <genClasses ecoreClass="PaA.ecore#//FieldDependantQuery">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference PaA.ecore#//FieldDependantQuery/field"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute PaA.ecore#//FieldDependantQuery/type"/>
+    </genClasses>
+    <genClasses ecoreClass="PaA.ecore#//BasicQuery">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute PaA.ecore#//BasicQuery/type"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

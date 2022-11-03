@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_R8ucYFXTEe2XWNWbgteZsA" name="modelState">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_R8vDcFXTEe2XWNWbgteZsA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_R8vDcVXTEe2XWNWbgteZsA" name="A" classifierBehavior="_R8vDdVXTEe2XWNWbgteZsA">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_R8vDclXTEe2XWNWbgteZsA" name="currentState" type="_R8vDf1XTEe2XWNWbgteZsA" association="_R8vDg1XTEe2XWNWbgteZsA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_R8vDc1XTEe2XWNWbgteZsA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_R8vDdFXTEe2XWNWbgteZsA" value="1"/>
+    </ownedAttribute>
+    <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_R8vDdVXTEe2XWNWbgteZsA" name="EtatA">
+      <region xmi:type="uml:Region" xmi:id="_R8vDdlXTEe2XWNWbgteZsA" name="Region1">
+        <transition xmi:type="uml:Transition" xmi:id="_R8vDd1XTEe2XWNWbgteZsA" name="t1" source="_R8vDelXTEe2XWNWbgteZsA" target="_R8vDe1XTEe2XWNWbgteZsA">
+          <trigger xmi:type="uml:Trigger" xmi:id="_R8vDeFXTEe2XWNWbgteZsA" event="_R8vDflXTEe2XWNWbgteZsA"/>
+        </transition>
+        <transition xmi:type="uml:Transition" xmi:id="_R8vDeVXTEe2XWNWbgteZsA" source="_R8vDfFXTEe2XWNWbgteZsA" target="_R8vDelXTEe2XWNWbgteZsA"/>
+        <subvertex xmi:type="uml:State" xmi:id="_R8vDelXTEe2XWNWbgteZsA" name="E1"/>
+        <subvertex xmi:type="uml:State" xmi:id="_R8vDe1XTEe2XWNWbgteZsA" name="E2"/>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_R8vDfFXTEe2XWNWbgteZsA" name="Initial3"/>
+      </region>
+    </ownedBehavior>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_R8vDfVXTEe2XWNWbgteZsA" name="request"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CallEvent" xmi:id="_R8vDflXTEe2XWNWbgteZsA" name="eventCall" operation="_R8vDfVXTEe2XWNWbgteZsA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_R8vDf1XTEe2XWNWbgteZsA" name="EtatA" isAbstract="true">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_R8vDgFXTEe2XWNWbgteZsA" name="request" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_R8vDgVXTEe2XWNWbgteZsA" name="Initial3">
+    <generalization xmi:type="uml:Generalization" xmi:id="_R8vDglXTEe2XWNWbgteZsA" general="_R8vDf1XTEe2XWNWbgteZsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_R8vDg1XTEe2XWNWbgteZsA" memberEnd="_R8vDclXTEe2XWNWbgteZsA _R8vDhFXTEe2XWNWbgteZsA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_R8vDhFXTEe2XWNWbgteZsA" type="_R8vDcVXTEe2XWNWbgteZsA" association="_R8vDg1XTEe2XWNWbgteZsA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_R8vDhVXTEe2XWNWbgteZsA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_R8vDhlXTEe2XWNWbgteZsA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_R8vDh1XTEe2XWNWbgteZsA" name="E1">
+    <generalization xmi:type="uml:Generalization" xmi:id="_R8vDiFXTEe2XWNWbgteZsA" general="_R8vDf1XTEe2XWNWbgteZsA"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_R8vDiVXTEe2XWNWbgteZsA" name="request"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_R8vDilXTEe2XWNWbgteZsA" name="E2">
+    <generalization xmi:type="uml:Generalization" xmi:id="_R8vDi1XTEe2XWNWbgteZsA" general="_R8vDf1XTEe2XWNWbgteZsA"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_R8vDjFXTEe2XWNWbgteZsA" name="request"/>
+  </packagedElement>
+</uml:Model>

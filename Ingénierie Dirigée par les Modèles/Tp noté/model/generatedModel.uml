@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_9fCr4FYBEe2XWNWbgteZsA" name="generatedModel">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_9fmFgFYBEe2XWNWbgteZsA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_9fCr4VYBEe2XWNWbgteZsA" name="int"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_9fCr4lYBEe2XWNWbgteZsA" name="string"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_9fCr41YBEe2XWNWbgteZsA" name="float"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9fCr5FYBEe2XWNWbgteZsA" name="Personne">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_9fCr5VYBEe2XWNWbgteZsA">
+      <body>@Entity</body>
+    </ownedComment>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9fCr5lYBEe2XWNWbgteZsA" name="nom" visibility="private" type="_9fCr4lYBEe2XWNWbgteZsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9fCr51YBEe2XWNWbgteZsA" name="Client">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_9fCr6FYBEe2XWNWbgteZsA">
+      <body>@Entity</body>
+    </ownedComment>
+    <generalization xmi:type="uml:Generalization" xmi:id="_9fCr6VYBEe2XWNWbgteZsA" general="_9fCr5FYBEe2XWNWbgteZsA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9fCr6lYBEe2XWNWbgteZsA" name="numero" visibility="private" type="_9fCr4VYBEe2XWNWbgteZsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_9fCr61YBEe2XWNWbgteZsA" name="ClientRepository">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_9fCr7FYBEe2XWNWbgteZsA">
+      <body>@Repository</body>
+    </ownedComment>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9fCr7VYBEe2XWNWbgteZsA" name="findBynom" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_9fCr7lYBEe2XWNWbgteZsA" name="nom" type="_9fCr4lYBEe2XWNWbgteZsA"/>
+    </ownedOperation>
+  </packagedElement>
+</uml:Model>
