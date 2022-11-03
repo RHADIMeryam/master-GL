@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/ll"
+        android:transitionName="logo_image"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/titre"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="@font/bangers"
+        android:gravity="center"
+        android:transitionName="logo_text"
+        android:text="AfriqueCar"
+        android:textAlignment="center"
+        android:textSize="70sp"
+        android:textColor="#C82463"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="367dp"
+        android:layout_height="161dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif"
+        android:text="AfriqueCar est présent dans la vente et location de véhicules  depuis plus de 15 ans."
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="509dp" />
+
+
+</LinearLayout>

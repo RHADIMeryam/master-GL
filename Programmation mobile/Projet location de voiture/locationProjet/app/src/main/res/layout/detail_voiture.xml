@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00986E6E"
+    tools:context=".AnnonceDetail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="29dp">
+
+        <TextView
+            android:fontFamily="monospace"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:lineSpacingExtra="10sp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:text="Détail de la voiture"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgHolder"
+            android:layout_width="500dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/nomHolder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nom de la voiture">
+                <!--style="@style/Widget.MaterialComponents.TextInputLayout.OutlineBox"> -->
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/modeleHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Modele de la voiture">
+            <!--style="@style/Widget.MaterialComponents.TextInputLayout.OutlineBox"> -->
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/desciptionHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description de la voiture">
+            <!--style="@style/Widget.MaterialComponents.TextInputLayout.OutlineBox"> -->
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/prixHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Prix de la voiture">
+            <!--style="@style/Widget.MaterialComponents.TextInputLayout.OutlineBox"> -->
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/addrHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Addresse  de l'annonceur">
+            <!--style="@style/Widget.MaterialComponents.TextInputLayout.OutlineBox"> -->
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/numeroHolder"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:hint="Numero de télephone  de l'annonceur">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/appel"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/ic_baseline_phone_24"
+                android:paddingLeft="10dp"
+                android:textColor="#000" />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

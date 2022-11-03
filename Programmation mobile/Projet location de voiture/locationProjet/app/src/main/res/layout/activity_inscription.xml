@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inscription"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#fff">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ll"
+        android:layout_marginLeft="90dp"
+        android:transitionName="logo_image" />
+    <TextView
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textSize="30sp"
+        android:text="Bienvenu à AfriqueCar"
+        android:textColor="@color/black" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/emailI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email">
+            <!--style="@style/Widget.MaterialComponents.TextInputLayout.OutlineBox"> -->
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/usernameI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            app:counterEnabled="true"
+            app:counterMaxLength="15">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/numeroI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Numero de téléphone">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passwordI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            android:hint="Password">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Type de profile"
+    android:textColor="@color/black"
+    android:textSize="18sp"
+    android:layout_marginTop="20dp"
+    />
+       <RadioGroup
+           android:layout_marginTop="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal">
+           <RadioButton
+               android:id="@+id/annonceur"
+               android:text="Annonceur                            "
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+           <RadioButton
+               android:id="@+id/acheteur"
+               android:text="Acheteur"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+       </RadioGroup>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/inscrire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="inscrire"
+        android:textColor="#FFFFFF"
+        android:background="#861e4a" />
+    <Button
+        android:id="@+id/seConnecter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vous avez déjà un compte ? se connecter"
+        android:background="#00000000"/>
+
+
+</LinearLayout>

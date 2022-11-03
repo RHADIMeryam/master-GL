@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "913272820489",
+    "firebase_url": "https://locationprojet-a31e9-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "locationprojet-a31e9",
+    "storage_bucket": "locationprojet-a31e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913272820489:android:eaca913314ac683431f9d8",
+        "android_client_info": {
+          "package_name": "com.example.locationprojet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913272820489-mhe5ij4hm0kvkrhf8vtkgjtp6ponkhfq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk4K89yQiZFUkgorLqEmNbZvQ_qlzj6JU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913272820489-mhe5ij4hm0kvkrhf8vtkgjtp6ponkhfq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
