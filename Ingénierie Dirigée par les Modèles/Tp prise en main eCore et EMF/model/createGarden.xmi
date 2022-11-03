@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mapPrefix:Map xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mapPrefix="mapUri" name="map">
+  <spaces xsi:type="mapPrefix:Square" name="epi" borderedBy="//@roads.0 //@roads.4"/>
+  <spaces xsi:type="mapPrefix:Garden" name="arc de triomphe" borderedBy="//@roads.2"/>
+  <spaces xsi:type="mapPrefix:Garden" name="jardin de plante" borderedBy="//@roads.1 //@roads.3"/>
+  <spaces xsi:type="mapPrefix:Garden" name="lala aicha" borderedBy="//@roads.1 //@roads.3"/>
+  <roads xsi:type="mapPrefix:Pedestrian" meet="//@roads.3" border="//@spaces.0" name="rue des arceaux " length="20"/>
+  <roads xsi:type="mapPrefix:Street" meet="//@roads.0" border="//@spaces.2 //@spaces.3" name="avenue de agriculture" length="15"/>
+  <roads xsi:type="mapPrefix:Street" meet="//@roads.1" border="//@spaces.1" name="Avenue de fes" length="10"/>
+  <roads xsi:type="mapPrefix:Pedestrian" meet="//@roads.0" border="//@spaces.2 //@spaces.3" name="rue de oujda" length="50"/>
+  <roads xsi:type="mapPrefix:Pedestrian" meet="//@roads.2" border="//@spaces.0" name="testPeiton" length="10000"/>
+</mapPrefix:Map>

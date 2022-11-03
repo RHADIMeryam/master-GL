@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_wVe1sFLBEe2JTZ8Wyt8K9g" name="InputMove">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_wW2usFLBEe2JTZ8Wyt8K9g">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_Lsm-4FLCEe2JTZ8Wyt8K9g" name="p2">
+    <packagedElement xmi:type="uml:Class" xmi:id="_DvfXUFLCEe2JTZ8Wyt8K9g" name="A">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_9BAQoFLCEe2JTZ8Wyt8K9g" name="name" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_MgnpMFLXEe2JTZ8Wyt8K9g" name="age" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_J_wTUFL1Ee2JTZ8Wyt8K9g" name="B">
+      <generalization xmi:type="uml:Generalization" xmi:id="_zYwMEFMGEe2JTZ8Wyt8K9g" general="_DvfXUFLCEe2JTZ8Wyt8K9g"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_MAGacFL1Ee2JTZ8Wyt8K9g" name="afficherAb"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_QBt98FLCEe2JTZ8Wyt8K9g" name="p1"/>
+</uml:Model>
