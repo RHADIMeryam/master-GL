@@ -1,0 +1,7 @@
+L’Ingénierie Dirigée par les Modèles (IDM) est une approche de développement logiciel qui consiste à mettre les modèles et leurs métamodèles au centre du processus.
+
+Compétences requis :
+- Comprendre un nouveau métamodèle
+- Savoir générer le code EMF correspondant à un métamodèle ou utiliser du code EMF pré-généré comme nous l'avons fait avec UML
+- Savoir charger/sauver des modèles
+- Savoir implémenter une transformation de modèle en Java/EMF
