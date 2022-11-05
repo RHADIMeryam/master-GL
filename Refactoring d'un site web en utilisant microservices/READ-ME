@@ -1,0 +1,9 @@
+Dans le cadre de notre projet d’étude TER (Travail d’Etude et de Recherche), nous sommes chargés de faire la refactorisation d’une
+application web monolithique en une application sous forme de micro-services.
+Le but de ce travail est de faire une partie d’étude pour s’approfondir dans la notion de l’architecture microservice avec ces différentes
+méthodes de migration, ainsi de choisir une de ces dernières pour réaliser la refactorisation du monolithe vers les microservices, ainsi que
+l’implementation d’une méthodologie de refactoring en utilisant une approche du machine learning non supervisé notamment le clustering
+pour découper la base de données en différents clusters afin que chaque cluster soit un micro-service candidat.
+L’application en question est écrite en Node.js, adossée par une base de données Postgres et hébergée dans des conteneurs Dockers
+et déployée sur l’adresse https://shellonyou.fr. Elle permet aux étudiants de se former au Shell Linux par la pratique (Learning by doing)
+en mettant en avant des compétences gagnées au fur et à mesure des exercices réalisés.
