@@ -1,0 +1,18 @@
+<?php 
+// Inclusion de la classe utilisateur
+ require_once "trajet.class.php";
+ class utilisateurTable {
+  public static function getTrajet($depart,$arrivee)
+	{
+ $em = dbconnection::getInstance()->getEntityManager();
+	$userRepository = $em->getRepository('trajet');
+	$user = $userRepository->findOneBy(array('depart' => $depart, 'arrivee' => $arrivee));
+	
+	if ($depart ==depart ){
+		echo 'Erreur sql';
+			   }
+	return $depart;
+	}
+ 
+}
+?>
