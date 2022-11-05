@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="Bg_conf" prefHeight="181.0" prefWidth="331.0" stylesheets="@../Styles/conf.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller_config">
+   <children>
+      <VBox prefHeight="181.0" prefWidth="331.0">
+         <children>
+            <Pane prefHeight="35.0" prefWidth="331.0" />
+            <Pane prefHeight="99.0" prefWidth="331.0">
+               <children>
+                  <TextArea id="f1" fx:id="f1" layoutX="157.0" layoutY="21.0" prefHeight="35.0" prefWidth="42.0" />
+                  <TextArea id="f2" fx:id="f2" layoutX="215.0" layoutY="21.0" prefHeight="35.0" prefWidth="42.0" />
+                  <TextArea id="f3" fx:id="f3" layoutX="286.0" layoutY="21.0" prefHeight="35.0" prefWidth="42.0" />
+                  <TextArea id="d1" fx:id="d1" layoutX="157.0" layoutY="62.0" prefHeight="35.0" prefWidth="42.0" />
+                  <TextArea id="d2" fx:id="d2" layoutX="215.0" layoutY="63.0" prefHeight="35.0" prefWidth="42.0" />
+                  <TextArea id="d3" fx:id="d3" layoutX="286.0" layoutY="62.0" prefHeight="35.0" prefWidth="42.0" />
+               </children>
+            </Pane>
+             <Pane maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="46.0" prefWidth="331.0">
+               <children>
+                  <Button id="btn1" layoutX="98.0" layoutY="9.0" mnemonicParsing="false" onAction="#toMain" prefHeight="7.0" prefWidth="149.0" />
+               </children></Pane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

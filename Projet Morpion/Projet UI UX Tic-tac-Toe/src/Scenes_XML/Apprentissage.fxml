@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="appr" stylesheets="@../Styles/Apprentiss.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller_Apprentiss">
+   <children>
+      <VBox prefHeight="370.0" prefWidth="663.0">
+         <children>
+            <Pane prefHeight="72.0" prefWidth="663.0" />
+            <Pane prefHeight="231.0" prefWidth="663.0">
+               <children>
+                  <ProgressBar layoutX="146.0" layoutY="178.0" prefHeight="25.0" prefWidth="295.0" progress="0.04" />
+                  <TextField layoutX="131.0" layoutY="65.0" prefHeight="103.0" prefWidth="319.0" style="-fx-background-color: black;" />
+                  <Label layoutX="448.0" layoutY="182.0" text="00 %" textFill="WHITE" />
+               </children></Pane>
+            <Pane prefHeight="61.0" prefWidth="663.0">
+               <children>
+                  <Button id="btnS" layoutX="251.0" layoutY="16.0" mnemonicParsing="false" onAction="#toAivsH" prefHeight="27.0" prefWidth="149.0" />
+               </children></Pane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="Bg_model" stylesheets="@../Styles/model.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller_model">
+   <children>
+      <VBox prefHeight="526.0" prefWidth="451.0">
+         <children>
+            <Pane prefHeight="474.0" prefWidth="451.0" />
+            <Pane prefHeight="48.0" prefWidth="451.0">
+               <children>
+                  <Button id="btnr" layoutX="155.0" layoutY="11.0" mnemonicParsing="false" onAction="#toMain" prefHeight="27.0" prefWidth="149.0" />
+               </children></Pane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller_Main">
+   <children>
+      <VBox id="Bg_main" fx:id="firsty" prefHeight="601.0" prefWidth="533.0" stylesheets="@../Styles/application.css">
+         <children>
+            <Pane prefHeight="98.0" prefWidth="533.0" />
+            <HBox prefHeight="278.0" prefWidth="533.0">
+               <children>
+                  <Pane prefHeight="278.0" prefWidth="268.0">
+                     <children>
+                        <Button id="btn2" layoutX="31.0" layoutY="83.0" mnemonicParsing="false" onAction="#show_PvP" prefHeight="128.0" prefWidth="208.0" stylesheets="@../Styles/application.css">
+                           <padding>
+                              <Insets bottom="10.0" />
+                           </padding></Button>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="278.0" prefWidth="270.0">
+                     <children>
+                        <Button id="btn1" layoutX="43.0" layoutY="83.0" mnemonicParsing="false" onAction="#Show_AI" prefHeight="128.0" prefWidth="208.0" style="-fx-border-radius: 20;" stylesheets="@../Styles/application.css" />
+                        <Slider layoutX="86.0" layoutY="39.0" />
+                     </children>
+                  </Pane>
+               </children>
+            </HBox>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Button id="config" alignment="BOTTOM_LEFT" contentDisplay="TOP" graphicTextGap="0.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#show_Config" prefHeight="40.0" prefWidth="190.0">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="170.0" />
+                     </VBox.margin>
+                     <rotationAxis>
+                        <Point3D />
+                     </rotationAxis>
+                     <opaqueInsets>
+                        <Insets top="10.0" />
+                     </opaqueInsets>
+                  </Button>
+                  <Button id="model" alignment="CENTER" mnemonicParsing="false" onAction="#show_model" prefHeight="40.0" prefWidth="190.0">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="170.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button id="exit" fx:id="close" alignment="CENTER" mnemonicParsing="false" onAction="#exit" prefHeight="43.0" prefWidth="201.0">
+                     <VBox.margin>
+                        <Insets left="165.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,312 @@
+#Bg_M{
+    -fx-background-image:url('../Src/Img/F10FB.png');
+    -fx-background-size:cover;
+    
+}
+#Bg_H{
+    -fx-background-image:url('../Src/Img/F10FH.png');
+    -fx-background-size:cover;
+    
+}
+#rejou{
+    -fx-background-image:url('../Src/Img/rejou.png');
+     -fx-background-size:cover;
+    -fx-background-color: transparent;
+}
+
+#x{
+    -fx-background-image:url('../Src/Img/X.png');
+     -fx-background-size:cover;
+   -fx-background-color: transparent;
+   
+}
+#o{
+    -fx-background-image:url('../Src/Img/o.png');
+     -fx-background-size:cover;
+   -fx-background-color: transparent;
+   
+}
+#ret{
+    -fx-background-image:url('../Src/Img/retourF2.png');
+     -fx-background-size:cover;
+     -fx-background-color: transparent;
+}
+#btn1{
+    -fx-background-image:url('../Src/Img/btnV.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#btn1X{
+    -fx-background-image:url('../Src/Img/btnXX.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#btn1O{
+    -fx-background-image:url('../Src/Img/btnOOo.png');
+ 
+      -fx-background-size:cover;
+     
+}
+#btn2{
+    -fx-background-image:url('../Src/Img/btnV.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#btn2X{
+    -fx-background-image:url('../Src/Img/btnXX.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#btn2O{
+    -fx-background-image:url('../Src/Img/btnOOo.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#btn3{
+    -fx-background-image:url('../Src/Img/btnV.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#btn3X{
+    -fx-background-image:url('../Src/Img/btnXX.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#btn3O{
+    -fx-background-image:url('../Src/Img/btnOOo.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#btn4{
+    -fx-background-image:url('../Src/Img/btnV.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#btn4X{
+    -fx-background-image:url('../Src/Img/btnXX.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#btn4O{
+    -fx-background-image:url('../Src/Img/btnOOo.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#btn5{
+    -fx-background-image:url('../Src/Img/btnV.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#btn5X{
+    -fx-background-image:url('../Src/Img/btnXX.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#btn5O{
+    -fx-background-image:url('../Src/Img/btnOOo.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#btn6{
+    -fx-background-image:url('../Src/Img/btnV.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#btn6X{
+    -fx-background-image:url('../Src/Img/btnXX.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#btn6O{
+    -fx-background-image:url('../Src/Img/btnOOo.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#btn7{
+    -fx-background-image:url('../Src/Img/btnV.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#btn7X{
+    -fx-background-image:url('../Src/Img/btnXX.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#btn7O{
+    -fx-background-image:url('../Src/Img/btnOOo.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#btn8{
+    -fx-background-image:url('../Src/Img/btnV.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#btn8X{
+    -fx-background-image:url('../Src/Img/btnXX.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#btn8O{
+    -fx-background-image:url('../Src/Img/btnOOo.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+
+#btn9{
+    -fx-background-image:url('../Src/Img/btnV.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#btn9X{
+    -fx-background-image:url('../Src/Img/btnXX.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#btn9O{
+    -fx-background-image:url('../Src/Img/btnOOo.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#panet1{
+    -fx-background-image:url('../Src/Img/line.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#panet2{
+    -fx-background-image:url('../Src/Img/line.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#panet3{
+    -fx-background-image:url('../Src/Img/line.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#panet4{
+    -fx-background-image:url('../Src/Img/line.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#panet5{
+    -fx-background-image:url('../Src/Img/line.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#panet6{
+    -fx-background-image:url('../Src/Img/line.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#panet7{
+    -fx-background-image:url('../Src/Img/line.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+#panet8{
+    -fx-background-image:url('../Src/Img/line.png');
+     -fx-background-color: transparent; 
+      -fx-background-size:cover;
+     
+}
+
+#btn1:hover{
+ -fx-effect: dropshadow(three-pass-box, #0C507F, 30, 0.5, 0, 0);
+   
+    
+}
+
+#btn2:hover{
+ -fx-effect: dropshadow(three-pass-box, #0C507F, 30, 0.5, 0, 0);
+   
+    
+}
+#btn3:hover{
+ -fx-effect: dropshadow(three-pass-box, #0C507F, 30, 0.5, 0, 0);
+   
+    
+}
+#btn4:hover{
+ -fx-effect: dropshadow(three-pass-box, #0C507F, 30, 0.5, 0, 0);
+   
+    
+}
+#btn5:hover{
+ -fx-effect: dropshadow(three-pass-box, #0C507F, 30, 0.5, 0, 0);
+   
+    
+}
+#btn6:hover{
+ -fx-effect: dropshadow(three-pass-box, #0C507F, 30, 0.5, 0, 0);
+   
+    
+}
+#btn7:hover{
+ -fx-effect: dropshadow(three-pass-box, #0C507F, 30, 0.5, 0, 0);
+   
+    
+}
+#btn8:hover{
+ -fx-effect: dropshadow(three-pass-box, #0C507F, 30, 0.5, 0, 0);
+   
+    
+}
+#btn9:hover{
+ -fx-effect: dropshadow(three-pass-box, #0C507F, 30, 0.5, 0, 0);
+   
+    
+}
+#model:hover{
+ -fx-effect: dropshadow(three-pass-box, #931530, 30, 0.5, 0, 0);
+   
+    
+}
+
+#ret:hover{
+ -fx-effect: dropshadow(three-pass-box, #931530, 30, 0.5, 0, 0);
+   
+    
+}
+#config:hover{
+ -fx-effect: dropshadow(three-pass-box, #931530, 30, 0.5, 0, 0);
+   
+    
+}
+#exit:hover{
+ -fx-effect: dropshadow(three-pass-box, #931530, 30, 0.5, 0, 0);
+   
+    
+}

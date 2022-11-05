@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="Bg_H" stylesheets="@../Styles/gameB.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller_gameH">
+   <children>
+      <HBox prefHeight="493.0" prefWidth="884.0">
+         <children>
+            <Pane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="45.0" layoutY="170.0" prefHeight="26.0" prefWidth="81.0" text="PLayer" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni 72 Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Xwin" layoutX="100.0" layoutY="5.0" text="Gagnant!!!" visible="false">
+                     <font>
+                        <Font name="Sinhala MN" size="51.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0" startX="0.15865384615384615">
+                           <stops>
+                              <Stop color="#ffd000" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Label>
+                  <Button id="ret" layoutX="20.0" layoutY="449.0" mnemonicParsing="false" onAction="#toMain" prefHeight="30.97" prefWidth="162.96" />
+                  <Pane id="x" layoutX="12.0" layoutY="304.0" prefHeight="31.0" prefWidth="28.0" style="-fx-background-color: ;" visible="false" fx:id="x1" />
+                  <Pane id="x" layoutX="42.0" layoutY="304.0" prefHeight="31.0" prefWidth="28.0" style="-fx-background-color: ;" visible="false" fx:id="x2" />
+                  <Pane id="x" layoutX="72.0" layoutY="304.0" prefHeight="31.0" prefWidth="28.0" style="-fx-background-color: ;" visible="false" fx:id="x3" />
+                  <Pane id="x" layoutX="102.0" layoutY="304.0" prefHeight="31.0" prefWidth="28.0" style="-fx-background-color: ;" visible="false" fx:id="x4" />
+                  <Pane id="x" layoutX="132.0" layoutY="304.0" prefHeight="31.0" prefWidth="28.0" style="-fx-background-color: ;" visible="false" fx:id="x5" />
+               </children></Pane>
+            <Pane prefHeight="493.0" prefWidth="500.0">
+               <children>
+                  <Button id="btn1" fx:id="bt" layoutX="75.0" layoutY="100.0" mnemonicParsing="false" onAction="#Played" prefHeight="76.0" prefWidth="87.0" />
+                  <Button id="btn2" fx:id="bt1" layoutX="209.0" layoutY="100.0" mnemonicParsing="false" onAction="#Played1" prefHeight="76.0" prefWidth="87.0" />
+                  <Button id="btn3" fx:id="bt2" layoutX="342.0" layoutY="100.0" mnemonicParsing="false" onAction="#Played2" prefHeight="76.0" prefWidth="87.0" />
+                  <Button id="btn4" fx:id="bt3" layoutX="75.0" layoutY="209.0" mnemonicParsing="false" onAction="#Played3" prefHeight="76.0" prefWidth="87.0" />
+                  <Button id="btn7" fx:id="bt6" layoutX="75.0" layoutY="315.0" mnemonicParsing="false" onAction="#Played6" prefHeight="76.0" prefWidth="87.0" />
+                  <Button id="btn8" fx:id="bt7" layoutX="209.0" layoutY="315.0" mnemonicParsing="false" onAction="#Played7" prefHeight="76.0" prefWidth="87.0" />
+                  <Button id="btn9" fx:id="bt8" layoutX="342.0" layoutY="315.0" mnemonicParsing="false" onAction="#Played8" prefHeight="76.0" prefWidth="87.0" />
+                  <Button id="btn6" fx:id="bt5" layoutX="342.0" layoutY="209.0" mnemonicParsing="false" onAction="#Played5" prefHeight="76.0" prefWidth="87.0" />
+                  <Button id="btn5" fx:id="bt4" layoutX="209.0" layoutY="209.0" mnemonicParsing="false" onAction="#Played4" prefHeight="76.0" prefWidth="87.0" />
+                  <Pane id="panet1" fx:id="panet1" layoutX="116.0" layoutY="103.0" prefHeight="285.0" prefWidth="4.0" visible="false" />
+                  <Pane id="panet2" fx:id="panet2" layoutX="250.0" layoutY="103.0" prefHeight="285.0" prefWidth="4.0" visible="false" />
+                  <Pane id="panet3" fx:id="panet3" layoutX="385.0" layoutY="103.0" prefHeight="285.0" prefWidth="4.0" visible="false" />
+                  <Pane id="panet4" fx:id="panet4" layoutX="249.0" layoutY="-4.0" prefHeight="285.0" prefWidth="4.0" rotate="90.0" visible="false" />
+                  <Pane id="panet5" fx:id="panet5" layoutX="249.0" layoutY="104.0" prefHeight="285.0" prefWidth="4.0" rotate="90.0" visible="false" />
+                  <Pane id="panet6" fx:id="panet6" layoutX="250.0" layoutY="208.0" prefHeight="285.0" prefWidth="4.0" rotate="90.0" visible="false" />
+                  <Pane id="panet7" fx:id="panet7" layoutX="246.0" layoutY="94.0" prefHeight="312.0" prefWidth="6.0" rotate="52.0" visible="false" />
+                  <Pane id="panet8" fx:id="panet8" layoutX="253.0" layoutY="92.0" prefHeight="312.0" prefWidth="6.0" rotate="130.0" visible="false" />
+                  <Label fx:id="Owin" layoutX="363.0" layoutY="2.0" text="Gagnant!!!" visible="false">
+                     <font>
+                        <Font name="Sinhala MN" size="51.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0" startX="0.15865384615384615">
+                           <stops>
+                              <Stop color="#ffd000" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Label>
+                  <Label fx:id="ega1" layoutX="382.0" layoutY="24.0" text="Egalité " visible="false">
+                     <font>
+                        <Font name="Sinhala MN" size="51.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0" startX="0.7884615384615384">
+                           <stops>
+                              <Stop color="#909090" />
+                              <Stop color="#909090" offset="0.007518796992481203" />
+                              <Stop color="#757575" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Label>
+                  <Label fx:id="ega2" layoutX="-50.0" layoutY="26.0" text="Egalité " visible="false">
+                     <font>
+                        <Font name="Sinhala MN" size="51.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0" startX="0.7884615384615384">
+                           <stops>
+                              <Stop color="#909090" />
+                              <Stop color="#909090" offset="0.007518796992481203" />
+                              <Stop color="#757575" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Label>
+                  <Button id="rejou" fx:id="rejou" layoutX="174.0" layoutY="427.0" mnemonicParsing="false" onAction="#initial_game" prefHeight="58.99" prefWidth="157.92" visible="false" />
+                  <Label fx:id="fin" layoutX="147.0" layoutY="430.0" text="Fin de match!" textFill="RED" visible="false">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Label>
+         
+                           </children>
+            </Pane>
+            <Pane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="64.0" layoutY="175.0" prefHeight="26.0" prefWidth="81.0" text="Player2" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni 72 Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Pane id="o" fx:id="o1" layoutX="162.0" layoutY="302.0" prefHeight="31.0" prefWidth="28.0" style="-fx-background-color: ;" visible="false" />
+                  <Pane id="o" fx:id="o2" layoutX="133.0" layoutY="302.0" prefHeight="31.0" prefWidth="28.0" style="-fx-background-color: ;" visible="false" />
+                  <Pane id="o" fx:id="o3" layoutX="103.0" layoutY="303.0" prefHeight="31.0" prefWidth="28.0" style="-fx-background-color: ;" visible="false" />
+                  <Pane id="o" fx:id="o4" layoutX="73.0" layoutY="303.0" prefHeight="31.0" prefWidth="28.0" style="-fx-background-color: ;" visible="false" />
+                  <Pane id="o" fx:id="o5" layoutX="43.0" layoutY="303.0" prefHeight="31.0" prefWidth="28.0" style="-fx-background-color: ;" visible="false" />
+               </children></Pane>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

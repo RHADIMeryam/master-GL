@@ -1,0 +1,18 @@
+#appr{
+    -fx-background-image:url('../Src/Img/F8F.png');
+    -fx-background-size:cover;
+    
+}
+ #btnS{
+    -fx-background-image:url('../Src/Img/StartF.png');
+     -fx-background-size:cover;
+    -fx-background-color: transparent;
+}
+    
+     
+
+#btnS:hover{
+ -fx-effect: dropshadow(three-pass-box, #0C507F, 30, 0.5, 0, 0);
+   
+    
+}

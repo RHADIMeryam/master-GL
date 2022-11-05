@@ -1,0 +1,65 @@
+#Bg_main{
+    -fx-background-image:url('../Src/Img/F6F.png');
+    -fx-background-size:cover;
+    
+}
+
+#config{
+    -fx-background-image:url('../Src/Img/configF.png');
+     -fx-background-size:cover;
+    -fx-background-color: transparent;
+}
+
+#model{
+    -fx-background-image:url('../Src/Img/ModelF.png');
+     -fx-background-size:cover;
+   -fx-background-color: transparent;
+   
+}
+#exit{
+    -fx-background-image:url('../Src/Img/ExitF.png');
+     -fx-background-size:cover;
+     -fx-background-color: transparent;
+}
+#btn1{
+    -fx-background-image:url('../Src/Img/g10.png');
+      -fx-background-color: transparent;
+       -fx-background-position:  center;
+       -fx-border-radius    : 95px  ;
+       -fx-padding: 4px;
+     
+}
+#btn2{
+    -fx-background-image:url('../Src/Img/Gs.png');
+    -fx-background-position:  center;
+-fx-background-repeat: no-repeat;
+  -fx-background-color: transparent;
+     
+     
+}
+#btn1:hover{
+ -fx-effect: dropshadow(three-pass-box, #0C507F, 30, 0.5, 0, 0);
+   
+    
+}
+
+#btn2:hover{
+ -fx-effect: dropshadow(three-pass-box, #0C507F, 30, 0.5, 0, 0);
+   
+    
+}
+#model:hover{
+ -fx-effect: dropshadow(three-pass-box, #931530, 30, 0.5, 0, 0);
+   
+    
+}
+#config:hover{
+ -fx-effect: dropshadow(three-pass-box, #931530, 30, 0.5, 0, 0);
+   
+    
+}
+#exit:hover{
+ -fx-effect: dropshadow(three-pass-box, #931530, 30, 0.5, 0, 0);
+   
+    
+}

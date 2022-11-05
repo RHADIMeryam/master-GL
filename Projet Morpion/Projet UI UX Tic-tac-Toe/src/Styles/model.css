@@ -1,0 +1,18 @@
+#Bg_model{
+    -fx-background-image:url('../Src/Img/F9F.png');
+    -fx-background-size:cover;
+    
+}
+ #btnr{
+    -fx-background-image:url('../Src/Img/retourF.png');
+     -fx-background-size:cover;
+    -fx-background-color: transparent;
+}
+    
+     
+
+#btnr:hover{
+ -fx-effect: dropshadow(three-pass-box, #0C507F, 30, 0.5, 0, 0);
+   
+    
+}

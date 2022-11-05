@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="Bg_M" stylesheets="@../Styles/gameB.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller_game">
+   <children>
+      <HBox prefHeight="493.0" prefWidth="884.0">
+         <children>
+            <Pane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="45.0" layoutY="170.0" prefHeight="26.0" prefWidth="81.0" text="PLayer" textFill="WHITE">
+                     <font>
+                        <Font name="Bodoni 72 Bold" size="22.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane prefHeight="493.0" prefWidth="500.0">
+               <children>
+                  <Button id="btn1" layoutX="75.0" layoutY="100.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="87.0" />
+                  <Button id="btn2" layoutX="209.0" layoutY="100.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="87.0" />
+                  <Button id="btn3" layoutX="342.0" layoutY="100.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="87.0" />
+                  <Button id="btn4" layoutX="75.0" layoutY="209.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="87.0" />
+                  <Button id="btn7" layoutX="75.0" layoutY="315.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="87.0" />
+                  <Button id="btn8" layoutX="209.0" layoutY="315.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="87.0" />
+                  <Button id="btn9" layoutX="342.0" layoutY="315.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="87.0" />
+                  <Button id="btn6" layoutX="342.0" layoutY="209.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="87.0" />
+                  <Button id="btn5" layoutX="209.0" layoutY="209.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="87.0" />
+                  <Button id="ret" layoutX="170.0" layoutY="440.0" mnemonicParsing="false" onAction="#toMain" prefHeight="30.97" prefWidth="162.96" />
+               </children></Pane>
+            <Pane prefHeight="200.0" prefWidth="200.0" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
