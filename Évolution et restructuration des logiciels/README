@@ -1,0 +1,12 @@
+Aborde les principes fondamentaux et les bonnes pratiques de la maintenance et de l’évolution des logiciels.
+Plusieurs thèmes sont abordés :
+• Maintenance et la migration des systèmes patrimoniaux.
+• La rétro-ingénierie et la compréhension des programmes.
+• La réingénierie des logiciels.
+• Les bad smells dans le code, son refactoring et sa restructuration.
+• Etc.
+Plusieurs techniques sont abordés :
+• Analyse statique.
+• Analyse dynamique.
+• Techniques issues du domaine de l'intelligence artificielle symbolique ou sous-symbolique.
+• Etc.
